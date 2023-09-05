@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 
 const Page = () => {
 
-    const [formValue,SetFormValue]=useState({email:"shaon@email.com",password:"123"})
+    const [formValue,SetFormValue]=useState({email:"gmail@email.com",password:"123"})
     const router=useRouter();
 
     const inputChange = (name,value) => {
